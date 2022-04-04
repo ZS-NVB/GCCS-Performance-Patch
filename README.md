@@ -14,7 +14,7 @@ In order to make the game run better, some rendering changes were needed:
 
 ## Installation:
 
-Put all the files into the same folder as the game's swf (gc-cs-steam.swf) and run applypatch
+To install this, download the zip from [here](https://github.com/ZS-NVB/CS-Performance-Patch/releases) and put the contents of it in the same folder as your game's swf (gc-cs-steam.swf) and run applypatch
 
 In order for it to work, you will need at least one of the following:
 * gc-cs-steam.swf to be the same as the game's original swf
