@@ -1,4 +1,4 @@
-# CS-Performance-Patch
+# GCCS-Performance-Patch
 A performance patch for GemCraft Chasing Shadows which makes the game run something like 10x faster
 
 Besides making the game run much faster, intended mechanical changes are minimal:
