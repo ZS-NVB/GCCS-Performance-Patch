@@ -11,6 +11,7 @@ In order to make the game run better, some rendering changes were needed:
 * Draw shields option ignores force min/max settings so you can disable it when on force min settings
 * An option to enable/disable drawing monster upper body parts is added
 * Disabling rendering monster parts will make them not update so they'll be wrong for a few frames when turning them on after they've been disabled
+* An option to disable monster death ability effects is added because they cause lag spikes when killing lots of heal on death or resocket on death monsters at once
 
 ## Installation:
 
