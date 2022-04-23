@@ -4,6 +4,7 @@ A performance patch for GemCraft Chasing Shadows which makes the game run someth
 Besides making the game run much faster, intended mechanical changes are minimal:
 * Towers fire at the weakest beacon first because the bug which made that not the case caused lag
 * Towers can't fire at guardians if there's monsters in range and they're not set to target specials
+* Traps which will fire at all monsters in range the maximum number of times and aren't set to target random will iterate over the targets in range (instead of choosing random targets) and will only call the function to make a monster take damage once per monster per frame and pass the number of hits to deal to it instead of calling the function multiple times per monster per frame
 
 In order to make the game run better, some rendering changes were needed:
 * Swarmlings which aren't rendered won't have their shield rendered either
